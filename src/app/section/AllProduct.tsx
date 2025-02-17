@@ -12,33 +12,37 @@ export default function AllProduct() {
             <Card
               className="mt-6 md:w-[250px]"
               imageSrc="/images/img4.jpg"
-              altTitle="Serenity Sofa"
-              title="Serenity Sofa"
-              description="Menufacture Hatil"
+              altTitle="Elegant Sofa"
+              title="Elegant Sofa"
+              description="Crafted by Hatil Designs"
+              price="$ 2500"
             />
 
             <Card
               className="mt-6 md:w-[250px]"
               imageSrc="/images/img4.jpg"
-              altTitle="Serenity Sofa"
-              title="Serenity Sofa"
-              description="Menufacture Hatil"
+              altTitle="Modern Sofa"
+              title="Modern Sofa"
+              description="Premium Hatil Collection"
+              price="$ 500"
             />
 
             <Card
               className="mt-6 md:w-[250px]"
               imageSrc="/images/img5.jpg"
-              altTitle="Parsons Chair"
-              title="Parsons Chair - 4"
-              description="Menufacture Regal"
+              altTitle="Classic Chair"
+              title="Classic Parsons"
+              description="Crafted by Regal Furnishings"
+              price="$ 200"
             />
 
             <Card
               className="mt-6 md:w-[250px]"
               imageSrc="/images/img6.jpg"
-              altTitle="Tranquil Bedframe"
-              title="Tranquil Bedframe"
-              description="Menufacture Laxona"
+              altTitle="Cozy Bedframe"
+              title="Cozy Bedframe"
+              description="Designed by Laxona Interiors"
+              price="$ 300"
             />
           </div>
 
@@ -47,40 +51,45 @@ export default function AllProduct() {
               <Card
                 className="mt-6"
                 imageSrc="/images/img4.jpg"
-                altTitle="Serenity Sofa"
-                title="Serenity Sofa"
-                description="Manufacture Hatil"
+                altTitle="Luxury Sofa"
+                title="Luxury Sofa"
+                description="Exclusive Hatil Design"
+                price="$ 200"
               />
               <Card
                 className="mt-6"
                 imageSrc="/images/img4.jpg"
-                altTitle="Serenity Sofa"
-                title="Serenity Sofa"
-                description="Manufacture Hatil"
+                altTitle="Comfy Sofa"
+                title="Comfy Sofa"
+                description="Top-tier Hatil Collection"
+                price="$ 700"
               />
               <Card
                 className="mt-6"
                 imageSrc="/images/img5.jpg"
-                altTitle="Parsons Chair"
-                title="Parsons Chair - 4"
-                description="Manufacture Regal"
+                altTitle="Elegant Chair"
+                title="Elegant Parsons Chair"
+                description="Made by Regal Furnishings"
+                price="$ 900"
               />
               <Card
                 className="mt-6"
                 imageSrc="/images/img6.jpg"
-                altTitle="Tranquil Bedframe"
-                title="Tranquil Bedframe"
-                description="Manufacture Laxona"
+                altTitle="Relaxing Bedframe"
+                title="Relaxing Bedframe"
+                description="Handcrafted by Laxona Interiors"
+                price="$ 100"
               />
             </div>
             <div>
               <Card
-                className="mt-6 w-full h-[24rem] md:h-[28rem] object-cover"
+                className="mt-6 w-full md:pb-0 pb-10 h-[24rem] md:h-[28rem] object-cover"
                 width="w-full h-full"
                 imageSrc="/images/img3.jpg"
-                altTitle="Serenity Sofa"
-                title="Serenity Sofa"
-                description="Manufacture Hatil"
+                altTitle="Premium Sofa"
+                title="Premium Sofa"
+                description="Exclusive Hatil Furniture"
+                price="$ 200"
               />
             </div>
           </div>

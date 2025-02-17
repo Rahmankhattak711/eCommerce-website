@@ -15,8 +15,8 @@ export default function SubscribeSection() {
 
       <div className="container">
         <div className="h-screen flex flex-col justify-center items-center">
-          <h2 className="md:text-3xl text-xl font-bold">Stay Update With</h2>
-          <h2 className="md:text-3xl text-xl font-bold mb-4">
+          <h2 className="md:text-3xl text-2xl font-bold">Stay Update With</h2>
+          <h2 className="md:text-3xl text-2xl font-bold mb-4">
             Our Latest Designs
           </h2>
           <Button variant="default" btnValue="Subscribe Now" />
