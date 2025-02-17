@@ -19,18 +19,34 @@ export default function ShopNowExclusiveDeal() {
 
         {/*  */}
         <div className="flex md:justify-between justify-center flex-wrap mt-4">
-          <Card className="mt-6" imageSrc="/images/img4.jpg" altTitle="Serenity Sofa" title="Serenity Sofa" description="Menufacture Hatil" />
+          <Card
+            className="mt-6 w-[350px]"
+            imageSrc="/images/img4.jpg"
+            altTitle="Serenity Sofa"
+            title="Serenity Sofa"
+            description="Menufacture Hatil"
+          />
 
-          <Card className="mt-6" imageSrc="/images/img5.jpg" altTitle="Parsons Chair" title="Parsons Chair - 4" description="Menufacture Regal"/>
+          <Card
+            className="mt-6 w-[350px]"
+            imageSrc="/images/img5.jpg"
+            altTitle="Parsons Chair"
+            title="Parsons Chair - 4"
+            description="Menufacture Regal"
+          />
 
-          <Card className="mt-6" imageSrc="/images/img6.jpg" altTitle="Tranquil Bedframe" title="Tranquil Bedframe" description="Menufacture Laxona"/>
+          <Card
+            className="mt-6 w-[350px]"
+            imageSrc="/images/img6.jpg"
+            altTitle="Tranquil Bedframe"
+            title="Tranquil Bedframe"
+            description="Menufacture Laxona"
+          />
         </div>
 
         <div className=" mt-8 text-center">
-        <Button variant="default" btnValue="Shop Our Collections" />
-
+          <Button variant="default" btnValue="Shop Our Collections" />
         </div>
-
       </div>
     </section>
   );
