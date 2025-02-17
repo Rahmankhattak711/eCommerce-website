@@ -6,14 +6,14 @@ export default function ElevateEveryRoom() {
     <section className="">
       <div className="container max-w-full md:!max-w-full ">
         <div className="bg-[#CEDEEB] md:p-24 p-6 rounded-3xl ">
-          <p className=" md:text-5xl text-center text-base font-bold leading-10 ">
+          <p className=" md:text-5xl text-center text-base font-bold leading-8 ">
             Elevate Every Room with
             <Image
               src="/images/expo1.png"
               alt="expo1"
               width={500}
               height={500}
-              className="w-10 h-10 inline-block"
+              className="md:w-10 w-6  md:h-10 inline-block"
             />
             Exquisite Furniture{" "}
             <Image
@@ -21,7 +21,7 @@ export default function ElevateEveryRoom() {
               alt="expo1"
               width={500}
               height={500}
-              className="w-10 h-10 inline-block"
+              className="md:w-10 w-6  md:h-10 inline-block"
             />{" "}
             Crafted to Reflect{" "}
             <Image
@@ -29,7 +29,7 @@ export default function ElevateEveryRoom() {
               alt="expo1"
               width={500}
               height={500}
-              className="w-10 h-10 inline-block"
+              className="md:w-10 w-6  md:h-10 inline-block"
             />{" "}
             Your Persona Style,{" "}
             <Image
@@ -37,7 +37,7 @@ export default function ElevateEveryRoom() {
               alt="expo1"
               width={500}
               height={500}
-              className="w-10 h-10 inline-block"
+              className="md:w-10 w-6  md:h-10 inline-block"
             />{" "}
             Turning{" "}
             <Image
@@ -45,7 +45,7 @@ export default function ElevateEveryRoom() {
               alt="expo1"
               width={500}
               height={500}
-              className="w-10 h-10 inline-block"
+              className="md:w-10 w-6  md:h-10 inline-block"
             />{" "}
             Ordinary Spaces{" "}
             <Image
@@ -53,7 +53,7 @@ export default function ElevateEveryRoom() {
               alt="expo1"
               width={500}
               height={500}
-              className="w-10 h-10 inline-block"
+              className="md:w-10 w-6  md:h-10 inline-block"
             />{" "}
             into Extraordinary Sanctuaries
           </p>

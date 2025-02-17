@@ -73,7 +73,7 @@ export default function AllProduct() {
                 description="Manufacture Laxona"
               />
             </div>
-            <div >
+            <div>
               <Card
                 className="mt-6 w-full h-[24rem] md:h-[28rem] object-cover"
                 width="w-full h-full"
