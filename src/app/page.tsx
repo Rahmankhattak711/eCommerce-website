@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import AllProduct from "./section/AllProduct";
 import BestChoiceFurniture from "./section/BestChoiceFurniture";
 import ElevateEveryRoom from "./section/ElevateEveryRoom";
@@ -15,6 +16,7 @@ export default function Home() {
       <AllProduct/>
       <BestChoiceFurniture/>
       <SubscribeSection/>
+      <Footer/>
     </div>
   );
 }
