@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="md:h-[500px] h-[700px] ">
       <div className="container !max-w-full  bg-[#CEDEEB] left-0 w-full h-full flex flex-col justify-center">
-        <div className="flex md:flex-row items-center gap-20 flex-col">
+        <div className="flex md:flex-row items-center mt-32 md:mt-0 md:gap-20 flex-col">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold">
               Elevate Your Space
@@ -28,8 +28,8 @@ export default function Hero() {
             </div>
           </div>
           <div className="md:relative">
-            <div className="h-44 w-80 md:absolute md:-bottom-72 bottom-0 ">
-               <Image src='/images/img1.webp' alt='hero section image' width={500} height={500} className="w-96 rounded-md bg-gray-600 object-cover" />
+            <div className="h-96 w-96 md:absolute md:-bottom-[22rem] bottom-44 ">
+               <Image src='/images/img1.png' alt='hero section image' width={300} height={300} className="w-96 rounded-md object-cover" />
             </div>
           </div>
         </div>
