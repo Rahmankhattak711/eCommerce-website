@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 export default function AllProduct() {
   return (
-    <section>
+    <section className="py-8 md:py-16 lg:py-24">
       <div className="container md:!max-w-full">
         <div>
           <h1 className="text-2xl md:text-3xl font-bold">All Products</h1>
@@ -73,9 +73,9 @@ export default function AllProduct() {
                 description="Manufacture Laxona"
               />
             </div>
-            <div className="overflow-hidden">
+            <div >
               <Card
-                className="mt-6 w-full h-[28rem] object-cover"
+                className="mt-6 w-full h-[24rem] md:h-[28rem] object-cover"
                 width="w-full h-full"
                 imageSrc="/images/img3.jpg"
                 altTitle="Serenity Sofa"

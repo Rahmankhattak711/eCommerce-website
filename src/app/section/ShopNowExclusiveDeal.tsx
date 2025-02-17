@@ -18,7 +18,7 @@ export default function ShopNowExclusiveDeal() {
         </div>
 
         {/*  */}
-        <div className="flex md:justify-between justify-center flex-wrap mt-4">
+        <div className="flex w-full md:justify-between justify-center flex-wrap mt-4">
           <Card
             className="mt-6 w-[350px]"
             imageSrc="/images/img4.jpg"
