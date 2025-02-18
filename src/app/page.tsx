@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import AllProduct from "./section/AllProduct";
+import AskQuestion from "./section/AskQuestion";
 import BestChoiceFurniture from "./section/BestChoiceFurniture";
 import ElevateEveryRoom from "./section/ElevateEveryRoom";
 import Hero from "./section/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <AllProduct/>
       <BestChoiceFurniture/>
       <SubscribeSection/>
+      <AskQuestion/>
       <Footer/>
     </div>
   );
