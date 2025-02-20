@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import AllProduct from "./section/AllProduct";
 import AskQuestion from "./section/AskQuestion";
 import BestChoiceFurniture from "./section/BestChoiceFurniture";
+import CreativeInsight from "./section/CreativeInsight";
 import ElevateEveryRoom from "./section/ElevateEveryRoom";
 import Hero from "./section/Hero";
 import ShopNowExclusiveDeal from "./section/ShopNowExclusiveDeal";
@@ -16,8 +17,9 @@ export default function Home() {
       <ElevateEveryRoom/>
       <AllProduct/>
       <BestChoiceFurniture/>
-      <SubscribeSection/>
       <AskQuestion/>
+      <SubscribeSection/>
+      <CreativeInsight/>
       <Footer/>
     </div>
   );

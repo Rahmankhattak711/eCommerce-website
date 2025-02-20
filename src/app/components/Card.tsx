@@ -2,11 +2,11 @@ import Image from "next/image";
 import React from "react";
 
 type CardProps = {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   imageSrc?: string;
   className?: string;
-  altTitle: string,
+  altTitle?: string,
   width?: string,
   price?: string
 };

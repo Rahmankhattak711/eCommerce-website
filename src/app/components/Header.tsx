@@ -32,7 +32,6 @@ export default function Header() {
               </Link>
             ))}
           </div>
-
           <button className="absolute right-0 md:hidden block" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">
             {isOpen ? <IoMdClose className="menuButtonStyle p-1" /> : <CiMenuFries className="menuButtonStyle p-1" />}
           </button>
