@@ -16,19 +16,19 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-start space-x-4 mt-4 text-sm md:mt-0 font-poppins">
-            <Link href="/shop" className="linkStyle">
+            <Link href="/" className="linkStyle">
               Shop
             </Link>
-            <Link href="/review" className="linkStyle">
+            <Link href="/" className="linkStyle">
               Review
             </Link>
-            <Link href="/about" className="linkStyle">
+            <Link href="/" className="linkStyle">
               About
             </Link>
-            <Link href="/contact" className="linkStyle">
+            <Link href="/" className="linkStyle">
               Contact
             </Link>
-            <Link href="/cart" className="linkStyle">
+            <Link href="/" className="linkStyle">
               Cart
             </Link>
           </div>
